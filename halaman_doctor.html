@@ -246,7 +246,7 @@
                         <textarea rows="4" placeholder="ceritakan keluhan secara singkat" maxlength="100" class="form-control"></textarea>
                     </div>
                 </div>
-                <button class="btn btn-primary btn-md mt-3"><span class="mai-send pr-2"></span>Send</button>
+                <button class="btn btn-primary btn-md mt-3" type="submit"><span class="mai-send pr-2"></span>Send</button>
             </form>
         </div>
     </div>
@@ -319,8 +319,8 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+                <form action="success_message.html">
                 <div class="modal-body">
-                    <form action="#">
                         <div class="form-group">
                             <label>Jenis Penyakit</label>
                             <select name="" class="form-control">
@@ -335,11 +335,11 @@
                             <label>Pesan/keluhan</label>
                             <textarea rows="4" class="form-control" placeholder="tuliskan pesan / Keluhan Anda disini"></textarea>
                         </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Send</button>
-                </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
